@@ -25,13 +25,13 @@ def predict():
     return jsonify({"tags": tags})
 
 def model1_predict(text):
-    return [f"模型1 回傳: {text}"]
+    return [f"model1 return: {text}"]
 
 def model2_predict(text):
-    return [f"模型2 回傳: {text}"]
+    return [f"model2 return: {text}"]
 
 def model3_predict(text):
-    return [f"模型3 回傳: {text}"]
+    return [f"model3 return: {text}"]
 
 '''if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)'''
