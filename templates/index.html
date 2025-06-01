@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title>CP 多模型分類器</title>
+    <title>CP Label Recommendation</title>
     <style>
         body { font-family: Arial, sans-serif; padding: 20px; }
         textarea { width: 100%; height: 150px; }
@@ -13,13 +13,13 @@
 <body>
     <h1>Competitive Programming 多模型標籤預測</h1>
     <textarea id="description" placeholder="請輸入 CP 題目描述"></textarea><br />
-    <label for="modelSelect">選擇模型：</label>
+    <label for="modelSelect">Choose model：</label>
     <select id="modelSelect">
-        <option value="model1">模型 1</option>
-        <option value="model2">模型 2</option>
-        <option value="model3">模型 3</option>
+        <option value="model1">model 1</option>
+        <option value="model2">model 2</option>
+        <option value="model3">model 3</option>
     </select><br />
-    <button onclick="send()">送出</button>
+    <button onclick="send()">send</button>
 
     <div id="result"></div>
 
